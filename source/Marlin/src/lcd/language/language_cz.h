@@ -33,13 +33,24 @@
  * https://www.zahradniksebavi.cz
  */
 
-#define DISPLAY_CHARSET_ISO10646_CZ
+//#define DISPLAY_CHARSET_ISO10646_CZ
+#define DISPLAY_CHARSET_ISO10646_1
 
 namespace Language_cz {
   using namespace Language_en; // Inherit undefined strings from English
 
   constexpr uint8_t CHARSIZE              = 2;
   LSTR LANGUAGE                           = _UxGT("Czech");
+
+  LSTR MSG_LEVEING_HOME             	  = _UxGT("Kalibrace podložky");
+  LSTR MSG_WAIT_LEVELING_HEAT             = _UxGT("Zahřívání podložky..");
+  LSTR MSG_ABOUT                        	= _UxGT("O tiskárně");
+  LSTR heat_MSG                           = _UxGT("Zahřívání trysky..");  
+  LSTR heat_waitMSG                       = _UxGT("Čekejte prosím...");  
+  LSTR Tool_MSG                           = _UxGT("Nástroj");
+  LSTR Operate_MSG                        = _UxGT("Obsluha zařízení");    
+  LSTR Home_motor                         = _UxGT("Domovská pozice");
+  LSTR LANGUAGE_choose                    = _UxGT("Jazyk");   
 
   LSTR WELCOME_MSG                        = MACHINE_NAME _UxGT(" připraven.");
   LSTR MSG_YES                            = _UxGT("ANO");
