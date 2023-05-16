@@ -1841,7 +1841,6 @@
  */
 #define LCD_LANGUAGE_AUTO_SAVE 
 #define LCD_LANGUAGE_2 en
-#define LCD_LANGUAGE_3 cz
 #define LCD_LANGUAGE_3 cs_CZ
 /**
  * LCD Character Set

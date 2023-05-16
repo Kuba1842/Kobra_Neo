@@ -39,7 +39,7 @@ namespace Language_cs_CZ {
   using namespace Language_en; // Inherit undefined strings from English
 
   constexpr uint8_t CHARSIZE              = 2;
-  LSTR LANGUAGE                           = _UxGT("Czech ()");
+  LSTR LANGUAGE                           = _UxGT("Czech");
 
   LSTR MSG_LEVEING_HOME             	  = _UxGT("Kalibrace podlozky");
   LSTR MSG_WAIT_LEVELING_HEAT             = _UxGT("Zahrivani podlozky..");
