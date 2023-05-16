@@ -33,8 +33,7 @@
  * https://www.zahradniksebavi.cz
  */
 
-//#define DISPLAY_CHARSET_ISO10646_CZ
-#define DISPLAY_CHARSET_ISO10646_1
+#define DISPLAY_CHARSET_ISO10646_CZ
 
 namespace Language_cz {
   using namespace Language_en; // Inherit undefined strings from English
