@@ -28,11 +28,11 @@
 
 //extern const uint8_t Helvetica12Bold[];
 
-//extern const uint8_t Helvetica14[], Helvetica14_symbols[];
+extern const uint8_t Helvetica14[], Helvetica14_symbols[];
 //extern const uint8_t Helvetica18[], Helvetica18_symbols[];
 
 
-extern const uint8_t ISO10646_CN[];
+//extern const uint8_t ISO10646_CN[];
 #define NO_GLYPH          0xFF
 
 typedef struct __attribute__((__packed__)) {
