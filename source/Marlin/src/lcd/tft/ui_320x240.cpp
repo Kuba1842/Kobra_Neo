@@ -447,15 +447,15 @@ void MarlinUI::draw_status_screen(char seclect) {
 //    }
 //    else
 //    {
-//       if(busy)    //ÕýÔÚ´òÓ¡ÖÐ
+//       if(busy)    //ï¿½ï¿½ï¿½Ú´ï¿½Ó¡ï¿½ï¿½
 //       {
 //         color=COLOR_ORANGE;
 //       }
-//       else if(Paused)      //ÔÝÍ£ÖÐ
+//       else if(Paused)      //ï¿½ï¿½Í£ï¿½ï¿½
 //       {
 //         color=COLOR_GREEN; 
 //       }
-//       else          //Ñ¹¸ù¾ÍÃ»ÓÐ´òÓ¡
+//       else          //Ñ¹ï¿½ï¿½ï¿½ï¿½Ã»ï¿½Ð´ï¿½Ó¡
 //       {
 //         color=COLOR_GREY;
 //       }
@@ -464,15 +464,15 @@ void MarlinUI::draw_status_screen(char seclect) {
 //      tft.add_image(0, 0, imgPause, color);
 //    }
 
-       if(busy)    //ÕýÔÚ´òÓ¡ÖÐ
+       if(busy)    //ï¿½ï¿½ï¿½Ú´ï¿½Ó¡ï¿½ï¿½
        {
          color=COLOR_ORANGE;
        }
-       else if(Paused)      //ÔÝÍ£ÖÐ
+       else if(Paused)      //ï¿½ï¿½Í£ï¿½ï¿½
        {
          color=COLOR_GREEN; 
        }
-       else          //Ñ¹¸ù¾ÍÃ»ÓÐ´òÓ¡
+       else          //Ñ¹ï¿½ï¿½ï¿½ï¿½Ã»ï¿½Ð´ï¿½Ó¡
        {
          color=COLOR_GREY;
        }
@@ -494,15 +494,15 @@ void MarlinUI::draw_status_screen(char seclect) {
 //    }
 //    else
 //    {
-//       if(busy)    //ÕýÔÚ´òÓ¡ÖÐ
+//       if(busy)    //ï¿½ï¿½ï¿½Ú´ï¿½Ó¡ï¿½ï¿½
 //       {
 //         color=COLOR_RED;
 //       }
-//       else if(Paused)      //ÔÝÍ£ÖÐ
+//       else if(Paused)      //ï¿½ï¿½Í£ï¿½ï¿½
 //       {
 //         color=COLOR_RED; 
 //       }
-//       else          //Ñ¹¸ù¾ÍÃ»ÓÐ´òÓ¡
+//       else          //Ñ¹ï¿½ï¿½ï¿½ï¿½Ã»ï¿½Ð´ï¿½Ó¡
 //       {
 //         color=COLOR_GREY;
 //       }
@@ -511,15 +511,15 @@ void MarlinUI::draw_status_screen(char seclect) {
 //      tft.add_image(0, 0, imgStop, color);     
 //    }
 
-       if(busy)    //ÕýÔÚ´òÓ¡ÖÐ
+       if(busy)    //ï¿½ï¿½ï¿½Ú´ï¿½Ó¡ï¿½ï¿½
        {
          color=COLOR_RED;
        }
-       else if(Paused)      //ÔÝÍ£ÖÐ
+       else if(Paused)      //ï¿½ï¿½Í£ï¿½ï¿½
        {
          color=COLOR_RED; 
        }
-       else          //Ñ¹¸ù¾ÍÃ»ÓÐ´òÓ¡
+       else          //Ñ¹ï¿½ï¿½ï¿½ï¿½Ã»ï¿½Ð´ï¿½Ó¡
        {
          color=COLOR_GREY;
        }
@@ -547,7 +547,9 @@ void MarlinUI::draw_status_screen(char seclect) {
   
     tft.canvas(15, 145, 80, 20);
     tft.set_background(COLOR_BACKGROUND);
-    tft.add_text(0, 0, color, "Print time"); 
+    tft_string.set(GET_TEXT(MSG_PRINT_TIME));
+		tft_string.trim();
+    tft.add_text(0, 0, color, tft_string);
 
   tft.canvas(10, 170, 100, 20);
   tft.set_background(COLOR_BACKGROUND);
