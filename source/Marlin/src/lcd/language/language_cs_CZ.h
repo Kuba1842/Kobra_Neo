@@ -33,8 +33,6 @@
  * https://www.zahradniksebavi.cz
  */
 
-escrzyaie
-
 #define DISPLAY_CHARSET_ISO10646_CZ
 
 namespace Language_cs_CZ {
