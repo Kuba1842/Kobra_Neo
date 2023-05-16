@@ -38,7 +38,6 @@
 
 #include <stdint.h>
 
-
 extern const u8g_fntpgm_uint8_t chinese[] U8G_SECTION(".progmem.chinese") = {
 /*
     0,11,11,0,255,9,1,207,3,158,32,255,255,10,255,9,
