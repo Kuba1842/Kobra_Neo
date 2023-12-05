@@ -250,7 +250,7 @@ namespace Language_cs_CZ {
 	LSTR MSG_MOVE_E_OUT                     = _UxGT("Vysunout filament");
 		LSTR MSG_PUSH_BUTTON									= _UxGT("Stisknete tlacitko");
 	LSTR MSG_STOP_LOAD_OR_UNLOAD       			= _UxGT("Zastavit zavadeni nebo vysunovani");;
-  LSTR MSG_Aotu_set_temp                  = _UxGT("Automaticky nastavit teplotu pro pokracovani?");  
+  LSTR MSG_Aotu_set_temp                  = _UxGT("Nastavit teplotu pro pokracovani?");  
   LSTR MSG_HOTEND_TOO_COLD                = _UxGT("Hotend je studeny");
   LSTR MSG_MOVE_N_MM                      = _UxGT("Posunout o %smm");
   LSTR MSG_MOVE_01MM                      = _UxGT("Posunout o 0,1mm");

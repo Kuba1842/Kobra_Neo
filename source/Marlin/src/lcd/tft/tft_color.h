@@ -75,7 +75,8 @@
   //#define COLOR_BACKGROUND    0x20AC  // #1E156E
 #endif
 #ifndef COLOR_SELECTION_BG
-  #define COLOR_SELECTION_BG  0x9930  // #992380
+  #define COLOR_SELECTION_BG  0x20AC  // #1E156E
+  //#define COLOR_SELECTION_BG  0x9930  // #992380
 #endif
 #ifndef COLOR_WEBSITE_URL
   #define COLOR_WEBSITE_URL   0x03B7  // #0075BD
@@ -132,7 +133,7 @@
 #endif
 
 #ifndef COLOR_STATUS_MESSAGE
-  #define COLOR_STATUS_MESSAGE    COLOR_YELLOW
+  #define COLOR_STATUS_MESSAGE    COLOR_WHITE
 #endif
 
 #ifndef COLOR_CONTROL_ENABLED
@@ -152,10 +153,10 @@
 #endif
 
 #ifndef COLOR_MENU_TEXT
-  #define COLOR_MENU_TEXT         COLOR_YELLOW
+  #define COLOR_MENU_TEXT         COLOR_WHITE
 #endif
 #ifndef COLOR_MENU_VALUE
-  #define COLOR_MENU_VALUE        COLOR_WHITE
+  #define COLOR_MENU_VALUE        COLOR_AQUA
 #endif
 
 #ifndef COLOR_SLIDER

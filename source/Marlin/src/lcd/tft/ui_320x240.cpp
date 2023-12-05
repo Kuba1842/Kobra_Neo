@@ -343,7 +343,7 @@ void MarlinUI::draw_status_screen(char seclect) {
       }
       else
       {
-        color=COLOR_YELLOW;
+        color=COLOR_GREY;
       }
       tft.canvas(4, 103, 125, 24);
       tft.set_background(COLOR_BACKGROUND);
@@ -540,7 +540,7 @@ void MarlinUI::draw_status_screen(char seclect) {
   }
   else
   {
-    color=COLOR_YELLOW;
+    color=COLOR_GREY;
   }
   duration_t elapsed = print_job_timer.duration();
   elapsed.toDigital(buffer);
@@ -831,14 +831,14 @@ void MenuItem_confirm::draw_select_screen(PGM_P const yes, PGM_P const no, const
         
         tft.canvas(180, 140, 64, 64);
         tft.set_background(COLOR_BACKGROUND);
-        tft.add_image(0, 0, imgConfirm, COLOR_YELLOW);
+        tft.add_image(0, 0, imgConfirm, COLOR_WHITE);
       
       }
       else
      {
         tft.canvas(60, 140, 64, 64);
         tft.set_background(COLOR_BACKGROUND);
-        tft.add_image(0, 0, imgCancel, COLOR_YELLOW);
+        tft.add_image(0, 0, imgCancel, COLOR_WHITE);
         
         tft.canvas(180, 140, 64, 64);
         tft.set_background(COLOR_BACKGROUND);
@@ -1030,7 +1030,7 @@ static void drawCurESelection() {
 static void drawMessage(const char *msg) {
   tft.canvas(X_MARGIN, TFT_HEIGHT - Y_MARGIN - 29, (TFT_WIDTH / 2) - (BTN_WIDTH / 2) - X_MARGIN, 20);
   tft.set_background(COLOR_BACKGROUND);
-  tft.add_text(0, 0, COLOR_YELLOW, msg);
+  tft.add_text(0, 0, COLOR_WHITE, msg);
 }
 
 static void drawAxisValue(const AxisEnum axis) {
