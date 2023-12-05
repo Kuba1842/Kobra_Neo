@@ -71,7 +71,7 @@
 #define COLOR_DARK_PURPLE     0x9930  // #992380
 
 #ifndef COLOR_BACKGROUND
-  #define COLOR_BACKGROUND    0x39E7  // #303030
+  #define COLOR_BACKGROUND    0x0000  // #000000
   //#define COLOR_BACKGROUND    0x20AC  // #1E156E
 #endif
 #ifndef COLOR_SELECTION_BG
